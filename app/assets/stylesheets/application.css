@@ -1,0 +1,111 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #f0f2f5;
+	overflow: hidden;
+}
+
+.nav-wrapper {
+	position: relative;
+	background-color: skyblue;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.nav-wrapper a {
+	text-decoration: none;
+	color: #111;
+}
+
+.nav-wrapper a:hover {
+	text-decoration: underline;
+}
+
+.form-wrapper {
+	position: relative;
+	left: 50vw;
+	background-color: #fff;
+	width: 425px;
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	box-shadow: 5px 5px 5px lightgrey;
+}
+
+.content-wrapper {
+	position: relative;
+	top: 15vh;
+	left: 14vw;
+}
+
+.username {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.username:focus {
+	outline: 1px solid skyblue;
+}
+
+.password {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+}
+
+.password:focus {
+	outline: 1px solid skyblue;
+}
+
+.submit {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	background-color: skyblue;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+	color: #111;
+	font-weight: bold;
+}
+
+.signup-button {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 15px;
+	border: 1px solid lightgrey;
+	background-color: #90EE90;
+	border-radius: 5px;
+	width: 350px;
+	font-size: 1.2rem;
+	color: #111;
+	font-weight: bold;
+	padding-left: auto;
+	padding-right: auto;
+	justify-content: center;
+}
+
+.divider {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 1px;
+	background-color: lightgrey;
+	width: 375px;
+}
