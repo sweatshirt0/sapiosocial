@@ -14,6 +14,8 @@ body {
 .nav-wrapper a {
 	text-decoration: none;
 	color: #111;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .nav-wrapper a:hover {
@@ -33,8 +35,14 @@ body {
 
 .content-wrapper {
 	position: relative;
-	top: 15vh;
-	left: 14vw;
+	top: 30vh;
+	left: 5vw;
+	width: 375px;
+	padding: 15px;
+}
+
+.content {
+	font-size: 1.1rem;
 }
 
 .username {
@@ -82,6 +90,11 @@ body {
 	font-weight: bold;
 }
 
+.submit:hover {
+	cursor: pointer;
+	box-shadow: 5px 5px 5px #90EE90;
+}
+
 .signup-button {
 	display: flex;
 	margin-left: auto;
@@ -99,6 +112,11 @@ body {
 	justify-content: center;
 }
 
+.signup-button:hover {
+	box-shadow: 5px 5px 5px skyblue;
+	cursor: pointer;
+}
+
 .divider {
 	display: flex;
 	margin-left: auto;
@@ -108,4 +126,40 @@ body {
 	padding: 1px;
 	background-color: lightgrey;
 	width: 375px;
+}
+
+.news-content-wrapper {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	background-color: #fff;
+	margin-top: 30px;
+	width: 95vw;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 5px lightgrey;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.news-content {
+	position: relative;
+}
+
+.contact-wrapper {
+	position: relative;
+	left: 6vw;
+	top: 15vh;
+	margin-top: -100px;
+}
+
+.contact-divider {
+	position: relative;
+	padding: 1px;
+	background-color: grey;
+	height: 13vh;
+	width: 1px;
+	top: 17vh;
+	left: 4.5vw;
+	margin-right: 20px;
 }
